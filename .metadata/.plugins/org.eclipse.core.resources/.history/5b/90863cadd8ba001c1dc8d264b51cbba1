@@ -1,0 +1,5 @@
+package com.curso.poo.config;
+
+public class WebConfig {
+
+}

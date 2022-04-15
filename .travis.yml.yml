@@ -1,0 +1,18 @@
+language: bash
+services: docker
+before_install:
+  - cd BackEnd-SpringBoot-RestFull-Pratica-1
+  - echo "Sua pasta de projetos!"
+script: 
+  - docker-compose build
+before_deploy:
+  - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
+deploy:
+  provider: script
+  script:
+    docker push hudsonsdi/mysql-backend-springboot-restfull-pratica-1;
+    docker push hudsonsdi/backend-springboot-restfull-pratica-1;
+  on:
+    branch: master
+notifications:
+  email: false

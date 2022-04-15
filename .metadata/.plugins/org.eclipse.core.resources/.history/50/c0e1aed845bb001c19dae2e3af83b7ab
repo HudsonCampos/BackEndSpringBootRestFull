@@ -1,0 +1,11 @@
+package com.curso.poo.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+
+import com.curso.poo.model.Moto;
+
+public interface RepositoryMoto extends JpaRepository<Moto, Integer>{
+
+	@Modifying
+}

@@ -1,0 +1,13 @@
+package com.curso.poo.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+
+import com.curso.poo.model.Moto;
+
+public interface RepositoryMoto extends JpaRepository<Moto, Integer>{
+
+	@Modifying
+	@Query("UPDATE Moto m SET m.andando = tru WHERE m.id=:id")
+}

@@ -1,0 +1,15 @@
+package com.curso.poo.config;
+
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
+
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@EnableSwagger2
+public class SwaggerConfig extends WebMvcConfigurationSupport{
+	
+	public void addHandlersMapping(ResourceHandlerRegistry registry) {
+		
+	}
+}

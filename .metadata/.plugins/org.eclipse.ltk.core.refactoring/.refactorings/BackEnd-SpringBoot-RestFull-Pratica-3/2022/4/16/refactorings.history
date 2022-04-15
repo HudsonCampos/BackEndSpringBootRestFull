@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BackEnd-SpringBoot-RestFull-Pratica-3/src/main/resources/db/migration/V202203301400__alter_table_casa.sql&apos; to &apos;V202204131400__alter_table_moto.sql&apos;" description="Rename resource &apos;V202203301400__alter_table_casa.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/db/migration/V202203301400__alter_table_casa.sql" name="V202204131400__alter_table_moto.sql" stamp="1649866798233" updateReferences="true"/>
+</session>

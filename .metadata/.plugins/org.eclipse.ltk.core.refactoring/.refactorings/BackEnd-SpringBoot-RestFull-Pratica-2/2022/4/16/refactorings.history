@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;V202203301400__alter_table_casa.sql&apos; to &apos;migration&apos;&#x0D;&#x0A;- Original project: &apos;BackEnd-SpringBoot-RestFull-Pratica-2&apos;&#x0D;&#x0A;- Destination element: &apos;migration&apos;&#x0D;&#x0A;- Original element: &apos;V202203301400__alter_table_casa.sql&apos;" description="Copy file" element1="src/main/resources/db/migration/V202203301400__alter_table_casa.sql" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649866759986" target="/BackEnd-SpringBoot-RestFull-Pratica-3/src/main/resources/db/migration" units="0" version="1.0"/>
+</session>
